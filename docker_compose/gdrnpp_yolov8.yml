@@ -2,6 +2,7 @@ version: '2.4'
 services:
   yolo:
     image: yolo
+    container_name: yolov8_ros
     privileged: true
     build:
       context: ../object_detectors/yolov8_sasha/docker
@@ -27,6 +28,7 @@ services:
 
   gdrnpp:
     image: gdrnpp
+    container_name: gdrnpp_ros
     build:
       context: ../pose_estimators/gdrnpp_sasha/docker
       dockerfile: dockerfile_ros

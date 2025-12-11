@@ -13,3 +13,6 @@
 [submodule "object_detectors/grounded_sam2_ros"]
 	path = object_detectors/grounded_sam2_ros
 	url = git@github.com:v4r-tuwien/grounded_sam2_ros.git
+[submodule "grasp_estimator/hsr_contact_graspnet"]
+	path = grasp_estimator/hsr_contact_graspnet
+	url = git@github.com:v4r-tuwien/hsr_contact_graspnet.git
