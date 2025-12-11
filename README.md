@@ -1,4 +1,4 @@
-# GRAPED (GRAsp, Pose Estimation and object Detection) (Title not final)
+# PODGE (Pose estimation, Object Detection, Grasp Estimation) (Title not final)
 
 This repository serves as a central hub for multiple grasp estimators, object detectors and pose estimators. And heavily based on [DOPE](https://github.com/lexihaberl/DOPE.git).
 
@@ -10,7 +10,7 @@ This repository serves as a central hub for multiple grasp estimators, object de
 
 To clone this repository with all its submodules:
 ```bash
-git clone --recurse-submodules git@github.com:v4r-tuwien/GRAPED.git
+git clone --recurse-submodules git@github.com:v4r-tuwien/PODGE.git
 ```
 
 If you have already cloned the repository without the submodules, you can initialize and update them with:
